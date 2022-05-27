@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom: 1px solid #ccc;
+}
+.content{
+    display: flex;
+}
+.content div{
+    margin: 0 3px ;
+}
+.income {
+    width:25px;
+    height:25px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    background-color: green;
+    color: #fff;
+}
+.expense{
+    width:25px;
+    height:25px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    background-color: red;
+    color: #fff;
+
+}
+.delete{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+}
+.delete:hover{
+    color: red;
+}

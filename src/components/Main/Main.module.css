@@ -1,0 +1,27 @@
+.main{
+    background-color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+    width:35%;
+    margin: 0 2.5%;
+}
+.main .example,.format,.balance {
+    text-align: center;
+    margin:.5px 0 ;
+
+}
+
+@media (max-width: 750px) {
+    .main{
+        width: 70%;
+    }
+}
+@media (max-width: 500px) {
+    .main{
+        width: 90%;
+    }
+}

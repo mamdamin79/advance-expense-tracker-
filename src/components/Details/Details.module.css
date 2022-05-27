@@ -1,0 +1,48 @@
+.income{
+    background-color: white;
+    border-bottom: 10px solid rgb(54, 231, 54);
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    width:30%;
+    padding: 10px;
+    margin: 0;
+}
+.expense{
+    background-color: white;
+    border-bottom: 10px solid rgb(253, 47, 47);
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    width:30%;
+    padding: 10px;
+    margin: 0;
+
+}
+@media (max-width: 750px) {
+    .income{
+        width: 70%;
+        margin: 10px 0;
+    }
+    .expense{
+        width: 70%;
+        margin: 10px 0;
+
+    }
+}
+@media (max-width: 500px){
+    .income{
+        width: 90%;
+        margin: 10px 0;
+    }
+    .expense{
+        width: 90%;
+        margin: 10px 0;
+
+    }
+
+}
